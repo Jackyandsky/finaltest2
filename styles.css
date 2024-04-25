@@ -4,7 +4,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  width: 1200px;
+  /* width: 1200px; */
   margin: auto;
 }
 
@@ -24,7 +24,15 @@ body {
   align-items: center;
   color: black;
 }
+.home{
+  background-color: #2980b9;
+}
+.home:hover{
+  background-color: #2980b9;
+  color: black;
+}
 a{
+  color: black;
   text-align: center;
   margin-left: 20px;
   /* margin-bottom: 10px; */
@@ -32,7 +40,7 @@ a{
   height: 40px;
 }
 a:hover {
-  background-color: blue;
+  background-color: grey;
   color: white;
 }
 .left, .right, .middle {
@@ -98,6 +106,6 @@ a:hover {
 .flip-container {
   display: flex;
   justify-content: center;
-
+  flex-wrap: wrap;
 }
 
